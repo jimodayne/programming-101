@@ -18,6 +18,23 @@ struct User {
     int borrowedBooks;
 };
 
+
+#define MAX_BOOKS 100
+#define MAX_USERS 100
+
+// Global variables for book and user data
+// char bookTitles[MAX_BOOKS][100];
+// char bookAuthors[MAX_BOOKS][100];
+// int bookYears[MAX_BOOKS];
+// int bookAvailable[MAX_BOOKS];
+// int numBooks = 0;
+
+// char userNames[MAX_USERS][100];
+// int userIDs[MAX_USERS];
+// int userBorrowedBooks[MAX_USERS];
+// int numUsers = 0;
+
+
 // Global variables for book and user arrays
 struct Book books[100];
 struct User users[100];
